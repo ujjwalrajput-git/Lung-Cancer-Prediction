@@ -1,12 +1,15 @@
 
 ---
 
-# Lung Cancer Risk Prediction with Random Forest and Comparative Analysis of Classification Models
+# Lung Cancer Prediction using Random Forest and Comparative Analysis of Other Classification Algorithms
 
-This project leverages machine learning to predict lung cancer risk based on various clinical attributes, with a focus on using the Random Forest algorithm. The project also includes a comparative analysis of other classification algorithms, such as Logistic Regression, K-Nearest Neighbors (KNN), Multinomial Naive Bayes, and Support Vector Classifier (SVC).
+This project leverages machine learning to predict lung cancer risk based on various clinical attributes, focusing on the Random Forest algorithm. The project also includes a comparative analysis of other classification algorithms, such as Logistic Regression, K-Nearest Neighbors (KNN), Multinomial Naive Bayes, and Support Vector Classifier (SVC).
+
+This work is part of a study published in *IEEE Xplore*, detailing our methodology, clinical insights, and evaluation of different models. You can find the full research paper [here](https://ieeexplore.ieee.org/document/10730856).
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Research Paper](#research-paper)
 - [Clinical Factors](#clinical-factors)
 - [Data Encoding](#data-encoding)
 - [Methodology Stages](#methodology-stages)
@@ -16,7 +19,16 @@ This project leverages machine learning to predict lung cancer risk based on var
 - [Contributing](#contributing)
 
 ## Project Overview
-This project aims to build a predictive model using several machine learning algorithms to analyze clinical factors and predict lung cancer risk. The structured methodology involves five main stages and evaluates fifteen significant clinical factors.
+This project aims to build a predictive model using several machine learning algorithms to analyze clinical factors and predict lung cancer risk. The structured methodology involves five main stages and evaluates fifteen significant clinical factors, allowing for a robust approach to assessing and comparing model effectiveness.
+
+## Research Paper
+
+This project is based on our research paper published in *IEEE Xplore*. The paper provides an in-depth study of lung cancer risk prediction using machine learning models. You can access the full research here:
+
+- **Title**: Lung Cancer Prediction using Random Forest and Comparative Analysis of Other Classification Algorithms
+- **Authors**: Ujjwal Rajput, [any additional co-authors if applicable]
+- **Publication**: IEEE Xplore
+- **DOI**: [10.1109/10730856](https://ieeexplore.ieee.org/document/10730856)
 
 ## Clinical Factors
 The following clinical factors were considered as input features for the predictive models:
@@ -83,6 +95,8 @@ To ensure robust model evaluation, K-Fold Cross-Validation was initially applied
 | Multinomial Naive Bayes| 75.2%           |
 | Support Vector Classifier (SVC) | 93.9%  |
 | Random Forest          | 94.5%           |
+
+For further details on the methodology and a more comprehensive analysis, refer to our published research paper on *IEEE Xplore*: [Lung Cancer Prediction using Random Forest and Comparative Analysis of Other Classification Algorithms](https://ieeexplore.ieee.org/document/10730856).
 
 ## Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue for any enhancements or bug fixes.
